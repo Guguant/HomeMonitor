@@ -14,9 +14,11 @@ client: client.exe <PORT> (ps: client's PORT is same as server's)
 ```
 
 # Simple Demo
-![client]()
+![client](https://github.com/Guguant/HomeMonitor/blob/master/demo/client_command.PNG)
 
-#Problems
+![server](https://github.com/Guguant/HomeMonitor/blob/master/demo/test_1.PNG)
+
+# Problems
 1. 图像传输数据量太大，一帧 = 640 * 480 * 3 bytes.
 2. 采用差值传输方案，需考虑关照因素
 3. 数据压缩传输
