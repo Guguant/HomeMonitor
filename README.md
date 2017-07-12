@@ -6,6 +6,8 @@ PC's camera is used as a Home Guard. PC camera collect pictures and send them to
 2. and server uses 'select networking model' to communicate with clients
 3. client receive image data, and show it.
 
+![design](https://github.com/Guguant/HomeMonitor/blob/master/demo/design.png)
+
 # Usage
 ```c
 server: server.exe <IP> <PORT>
